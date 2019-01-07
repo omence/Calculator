@@ -10,7 +10,6 @@ namespace Calculator
             int firstNum;
             int secondNum;
             string operation;
-            int answer;
 
             //Name of calculator
             Console.WriteLine("The Best Worst Calculator!");
@@ -28,7 +27,7 @@ namespace Calculator
             Console.Write("Now enter your operator (x, /, +, -)");
             operation = Console.ReadLine();
 
-            //logic for
+            //logic for operators
             if (operation == "x")
             {
 
@@ -60,7 +59,7 @@ namespace Calculator
 
 
         }
-
+        //Methods
         public static void Multiply(int firstNum, int secondNum) {
             int answer;
             answer = firstNum * secondNum;
